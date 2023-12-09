@@ -17,9 +17,11 @@ const Navbar = ({ products }) => {
   return (
     <nav className="bg-gray-800 text-white">
       <div className="container mx-auto p-4 flex justify-between items-center">
-        <div>
-          <span className="text-lg font-bold">Latracal</span>
-        </div>
+        <Link to="/">
+          <div>
+            <span className="text-lg font-bold">Latracal</span>
+          </div>
+        </Link>
         <div className="relative">
           <input
             type="text"
